@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/philtr/taut-gifme.git
-  revision: 8f8d7ac3b59ad7cb93697fbf03c33fa706ddc192
+  revision: 0e3c16e069b7a178ae3a99a0a0ecf1ccb64e9120
   specs:
     taut-gifme (0.0.1)
       multi_json (>= 1.8)
