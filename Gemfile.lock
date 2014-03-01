@@ -1,20 +1,22 @@
-PATH
-  remote: ../taut
-  specs:
-    taut (0.0.1)
-      sinatra (>= 1.4)
-
-PATH
-  remote: ../taut-gifme
+GIT
+  remote: git://github.com/philtr/taut-gifme.git
+  revision: 8f8d7ac3b59ad7cb93697fbf03c33fa706ddc192
   specs:
     taut-gifme (0.0.1)
       multi_json (>= 1.8)
       taut
 
+GIT
+  remote: git://github.com/philtr/taut.git
+  revision: a05f5b7aa5b213e3c852d26955ba4652e91c2f9d
+  specs:
+    taut (0.0.1)
+      sinatra (>= 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    multi_json (1.8.2)
+    multi_json (1.8.4)
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
